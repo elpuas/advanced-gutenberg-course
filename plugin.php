@@ -13,7 +13,7 @@
  * Version:     1.0.0
  * Author:      Zac Gordon
  * Author URI:  https://twitter.com/zgordon
- * Text Domain: jsforwpadvblocks
+ * Text Domain: wdsblocks
  * Domain Path: /languages
  * License:     GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html

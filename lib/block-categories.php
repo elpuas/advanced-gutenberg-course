@@ -8,9 +8,9 @@ add_filter( 'block_categories', function( $categories, $post ) {
 		$categories,
 		[
 			[
-                'slug' => 'jsforwpadvblocks',
+                'slug' => 'wdsblocks',
                 'icon' => 'wordpress-alt',
-				'title' => __( 'JS for WP - Advanced Blocks', 'jsforwpadvblocks' ),
+				'title' => __( 'WDS Blocks', 'wdsblocks' ),
 			],
 		]
 	);

@@ -1,5 +1,5 @@
 {
-  "name": "jsforwp-blocks",
+  "name": "wds-blocks",
   "version": "3.0.0",
   "license": "MIT",
   "main": "blocks/index.js",
