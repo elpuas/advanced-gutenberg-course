@@ -31,6 +31,10 @@ export default registerBlockType("wdsblocks/gallery", {
 		direction: {
 			type: 'string',
 			default: 'row'
+		},
+		isLightboxEnabled: {
+			type: 'boolean',
+			default: true
 		}
 	},
 	edit: props => {
@@ -114,9 +118,13 @@ export default registerBlockType("wdsblocks/gallery", {
 		)
 	},
 	save: props => {
-		const { images } = props.attributes;
+		const { images, direction, isLightboxEnabled } = props.attributes;
 		return (
-			<div>
+			<div 
+				className={`${direction}`}
+				data-direction={direction}
+				data-isLightboxEnabled={isLightboxEnabled}
+			>
 				{images.map( img => ( 
 				<img 
 					src={img.src} 
