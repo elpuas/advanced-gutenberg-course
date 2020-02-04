@@ -40,8 +40,8 @@ module.exports = {
     filename: "[name].js"
   },
   externals: {
-    react: "React",
-    "react-dom": "ReactDOM"
+    'react': 'React',
+    'react-dom': 'ReactDOM'
   },
   watch: "production" !== process.env.NODE_ENV,
   devtool: "cheap-module-source-map",

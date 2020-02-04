@@ -1,5 +1,5 @@
 {
-  "name": "jsforwp-blocks",
+  "name": "wds-blocks",
   "version": "3.0.0",
   "license": "MIT",
   "main": "blocks/index.js",
@@ -31,7 +31,12 @@
     "webpack": "^3.11.0"
   },
   "dependencies": {
+<<<<<<< HEAD
     "react-images": "^0.5.19",
     "react-photo-gallery": "^6.3.0"
+=======
+    "react-images": "^1.1.0-beta.3",
+    "react-photo-gallery": "^8.0.0"
+>>>>>>> @{-1}
   }
 }
