@@ -38,6 +38,10 @@ module.exports = {
     path: path.resolve(__dirname),
     filename: "[name].js"
   },
+  externals: {
+    'react': 'React',
+    'react-dom': 'ReactDOM'
+  },
   watch: "production" !== process.env.NODE_ENV,
   devtool: "cheap-module-source-map",
   module: {

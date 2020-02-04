@@ -1,2 +1,12 @@
+.wp-block-wdsblocks-gallery.column .react-photo-gallery--gallery > div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap; }
+  .wp-block-wdsblocks-gallery.column .react-photo-gallery--gallery > div img {
+    height: auto; }
+
+.wp-block-wdsblocks-gallery.row img {
+  height: 100%; }
 
 /*# sourceMappingURL=blocks.style.css.map*/

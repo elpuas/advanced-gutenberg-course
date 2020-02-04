@@ -1,0 +1,19 @@
+.wp-block-wdsblocks-gallery.column {
+	.react-photo-gallery--gallery {
+		> div {
+			display: flex;
+			flex-flow: column wrap;
+			
+			img {
+				height: auto
+			}
+		}
+	}
+}
+
+
+
+.wp-block-wdsblocks-gallery.row img {
+	height: 100%;
+}
+
