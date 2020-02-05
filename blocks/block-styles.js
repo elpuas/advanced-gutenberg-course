@@ -7,17 +7,17 @@ registerBlockStyle("core/quote", {
   label: "Colorful Quote"
 });
 
-registerBlockStyle("jsforwpadvblocks/shoutout-styles", {
+registerBlockStyle("wdsblocks/shoutout-styles", {
   name: "default",
   label: "Default"
 });
 
-registerBlockStyle("jsforwpadvblocks/shoutout-styles", {
+registerBlockStyle("wdsblocks/shoutout-styles", {
   name: "serious",
   label: "Serious"
 });
 
-registerBlockStyle("jsforwpadvblocks/shoutout-styles", {
+registerBlockStyle("wdsblocks/shoutout-styles", {
   name: "colorful",
   label: "Colorful"
 });

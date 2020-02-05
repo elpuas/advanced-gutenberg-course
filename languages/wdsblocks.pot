@@ -50,3 +50,34 @@ msgstr ""
 #: blocks/01-gallery/index.js:92
 msgid "Edit Gallery"
 msgstr ""
+
+#: blocks/02-data-example/components/DeleteButton.js:12
+#: blocks/02-data-example/components/DispatchDemo.js:22
+#: blocks/02-data-example/components/WithComposeDemo.js:21
+msgid "Delete"
+msgstr ""
+
+#: blocks/02-data-example/components/SelectDemo.js:14
+#: blocks/02-data-example/components/SubscribeDemo.js:26
+msgid "Block Count"
+msgstr ""
+
+#: blocks/02-data-example/components/WithSelectDemo.js:10
+msgid "Block Count:"
+msgstr ""
+
+#: blocks/02-data-example/index.js:14
+msgid "Data Api Example"
+msgstr ""
+
+#: blocks/02-data-example/index.js:15
+msgid "Advance API Data"
+msgstr ""
+
+#: blocks/02-data-example/index.js:22
+msgid "Data API Example Backend"
+msgstr ""
+
+#: blocks/02-data-example/index.js:35
+msgid "Data API Example Front End"
+msgstr ""
