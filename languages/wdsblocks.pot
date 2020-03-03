@@ -81,3 +81,15 @@ msgstr ""
 #: blocks/02-data-example/index.js:35
 msgid "Data API Example Front End"
 msgstr ""
+
+#: plugins/01-plugin-sidebar-demo/index.js:19
+msgid "Plugin Sidebar Demo"
+msgstr ""
+
+#: plugins/01-plugin-sidebar-demo/index.js:22
+msgid "Panel Body Title"
+msgstr ""
+
+#: plugins/01-plugin-sidebar-demo/index.js:26
+msgid "Plugin Sidebar Content"
+msgstr ""

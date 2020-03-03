@@ -84,7 +84,56 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ 228:
 /***/ (function(module, exports) {
 
-console.log('Hello Im the Plugin');
+/**
+ * Get Dependencies
+ */
+
+var __ = wp.i18n.__;
+var Fragment = wp.element.Fragment;
+var registerPlugin = wp.plugins.registerPlugin;
+var _wp$editPost = wp.editPost,
+    PluginSidebar = _wp$editPost.PluginSidebar,
+    PluginSidebarMoreMenuItem = _wp$editPost.PluginSidebarMoreMenuItem;
+var _wp$components = wp.components,
+    PanelBody = _wp$components.PanelBody,
+    PanelRow = _wp$components.PanelRow;
+
+
+var PluginSidebarDemo = function PluginSidebarDemo(props) {
+	return wp.element.createElement(
+		Fragment,
+		null,
+		wp.element.createElement(
+			PluginSidebarMoreMenuItem,
+			{ target: "wds-adv-demo" },
+			__("Plugin Sidebar Demo", "wds-adv-gb-plugin-js")
+		),
+		wp.element.createElement(
+			PluginSidebar,
+			{
+				name: "wds-adv-demo",
+				title: __("Plugin Sidebar Demo", "wds-adv-gb-plugin-js")
+			},
+			wp.element.createElement(
+				PanelBody,
+				{
+					title: __("Panel Body Title", "wds-adv-gb-plugin-js"),
+					opened: true
+				},
+				wp.element.createElement(
+					PanelRow,
+					null,
+					__("Plugin Sidebar Content", "wds-adv-gb-plugin-js")
+				)
+			)
+		)
+	);
+};
+
+registerPlugin("wds-adv-demo", {
+	icon: "admin-plugins",
+	render: PluginSidebarDemo
+});
 
 /***/ })
 
